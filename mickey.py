@@ -15,7 +15,7 @@ YELLOW=pygame.Color("yellow")
 MAGENTA=pygame.Color("magenta")
 ORANGE=pygame.Color("orange")
 WHITE=pygame.Color("white")
-#Spirte class representing the movie object
+#Spirte class representing the moving object
 class Sprite(pygame.sprite.Sprite):
     #Constructor method 
      def __init__(self, color, width, height):
